@@ -16,15 +16,14 @@ class Icebox < Formula
   # macOS Apple Silicon (arm64) binary from GitHub Releases
   on_macos do
     on_arm do
-      url "https://github.com/SteelCrab/icebox/releases/download/v0.1.0/icebox-darwin-arm64"
+      url "https://github.com/SteelCrab/icebox/releases/download/v0.1.0/icebox"
       sha256 "eef131672dd266d9ec270d540630605735e75db317aa12759d5471b6702a5f9d"
     end
   end
 
   # Rename platform-specific binary to 'icebox'
   def install
-    binary = Dir["icebox-*"].first || "icebox"
-    bin.install binary => "icebox"
+    bin.install "icebox"
   end
 
   test do
