@@ -8,13 +8,13 @@
 class Icebox < Formula
   desc "Rust TUI Kanban Board with AI Sidebar"
   homepage "https://github.com/SteelCrab/icebox"
-  version "0.4.0"
+  version "0.4.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/SteelCrab/icebox/releases/download/v0.4.0/icebox-aarch64-apple-darwin.tar.gz"
-      sha256 "f3afcf54889888aaf4de9cc5c97ae31ac19b99fc389cb31485d46903a99e558d"
+      url "https://github.com/SteelCrab/icebox/releases/download/v0.4.1/icebox-aarch64-apple-darwin.tar.gz"
+      sha256 "c6ff9e8c7c2d2f20d6c8e5ba964536d5f9bf42e871aea32fdbcd04f6d6e6bc2a"
     end
   end
 
